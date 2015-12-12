@@ -1,0 +1,33 @@
+@button-color: #4aadeb;
+
+.call-charges {
+  margin: 0 0 60px;
+
+  .breakdown {
+    border: solid 1px #f2f2f2;
+    overflow: hidden;
+    padding: 10px;
+  }
+
+  .call-list {
+    margin: 0 0 10px;
+    max-height: 280px;
+    overflow: auto;
+  }
+
+  .toggle {
+    background-color: @button-color;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-weight: 600;
+    margin: 20px 0 0;
+    padding: 6px 12px;
+
+    &:hover {
+      background-color: darken(@button-color, 10);
+    }
+  }
+}
